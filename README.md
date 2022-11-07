@@ -5,6 +5,9 @@ Built from the ground up using React and Node.js
 
 Check it out on https://alimi-portfolio.netlify.app
 
+# Screenshots
+![](screenshots/portfolio.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
