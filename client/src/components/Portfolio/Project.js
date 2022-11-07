@@ -1,12 +1,16 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-import proj1 from "../../assets/img/beachfinder.png";
-import proj2 from "../../assets/img/makersbnb.png";
-import proj3 from "../../assets/img/acebook.png";
-import proj4 from "../../assets/img/flutter.png";
-import proj5 from "../../assets/img/portfolio.png";
-import colorSharp2 from "../../assets/img/color-sharp2.png";
+
+import proj1 from "../../assets/img/projectImg/beachfinder.png";
+import proj2 from "../../assets/img/projectImg/makersbnb.png";
+import proj3 from "../../assets/img/projectImg/acebook.png";
+import proj4 from "../../assets/img/projectImg/flutter.png";
+import proj5 from "../../assets/img/projectImg/portfolio.png";
+import proj6 from "../../assets/img/projectImg/travelJourney.png";
+import proj7 from "../../assets/img/projectImg/movieReview.png";
+import proj8 from "../../assets/img/projectImg/getQuotes.png";
+import colorSharp2 from "../../assets/img/detail/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -38,38 +42,34 @@ export const Projects = () => {
       imgUrl: proj5,
       code: 'https://github.com/Hafizalimi7/Portfolio'
     },
-  ];
-
-  const projects2 = [
     {
       title: "Spotlas App",
       description: "Mobile Development",
       imgUrl: proj4,
       code: 'https://github.com/Hafizalimi7/SpotlasApp'
     },
+  ];
+
+  const projects2 = [
     {
-      title: "Spotlas",
-      description: "Mobile Development App",
-      imgUrl: proj3,
+      title: "Travel Journal",
+      description: "Frontend",
+      imgUrl: proj6,
+      code: 'https://github.com/Hafizalimi7/Travel-Journey'
+    },
+    {
+      title: "Movie Review",
+      description: "Full Stack",
+      imgUrl: proj7,
+      code: 'https://github.com/Hafizalimi7/Movie-Review'
+    },
+    {
+      title: "Get Quotes",
+      description: "Full Stack",
+      imgUrl: proj8,
       code: ''
     },
   ];
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: proj3,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg2,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
-  
 
   return (
     <section className="project" id="project">
@@ -122,10 +122,12 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>
+                      <a href="https://github.com/Hafizalimi7?tab=repositories" rel="github">For more projects click here</a>
+                      </p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>In progress..</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
