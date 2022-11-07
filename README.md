@@ -1,7 +1,7 @@
 # Porfolio Website
 
 
-Built from the ground up using React and Node.js
+Built from the ground up using React , Node.js and deploying on Netify
 
 Check it out on https://alimi-portfolio.netlify.app
 
