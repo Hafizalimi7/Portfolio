@@ -5,6 +5,7 @@ import proj1 from "../../assets/img/beachfinder.png";
 import proj2 from "../../assets/img/makersbnb.png";
 import proj3 from "../../assets/img/acebook.png";
 import proj4 from "../../assets/img/flutter.png";
+import proj5 from "../../assets/img/portfolio.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -31,6 +32,12 @@ export const Projects = () => {
       imgUrl: proj3,
       code: 'https://github.com/Hafizalimi7/acebook-node-priceless'
     },
+    {
+      title: "Portfolio",
+      description: "Full Stack",
+      imgUrl: proj5,
+      code: 'https://github.com/Hafizalimi7/Portfolio'
+    },
   ];
 
   const projects2 = [
@@ -39,12 +46,6 @@ export const Projects = () => {
       description: "Mobile Development",
       imgUrl: proj4,
       code: 'https://github.com/Hafizalimi7/SpotlasApp'
-    },
-    {
-      title: "Makers Bnb",
-      description: "Full Stack",
-      imgUrl: proj4,
-      code: ''
     },
     {
       title: "Spotlas",
