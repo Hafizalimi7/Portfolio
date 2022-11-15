@@ -10,6 +10,7 @@ import proj5 from "../../assets/img/projectImg/portfolio.png";
 import proj6 from "../../assets/img/projectImg/travelJourney.png";
 import proj7 from "../../assets/img/projectImg/movieReview.png";
 import proj8 from "../../assets/img/projectImg/getQuotes.png";
+import proj9 from "../../assets/img/projectImg/covidSite.png";
 import colorSharp2 from "../../assets/img/detail/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -43,17 +44,24 @@ export const Projects = () => {
       code: 'https://github.com/Hafizalimi7/Portfolio'
     },
     {
+      title: "Covid19 Tracker",
+      description: "Front End Development",
+      imgUrl: proj9,
+      code: 'https://github.com/Hafizalimi7/Covid19-Tracker'
+    },
+    {
       title: "Spotlas App",
       description: "Mobile Development",
       imgUrl: proj4,
       code: 'https://github.com/Hafizalimi7/SpotlasApp'
     },
+
   ];
 
   const projects2 = [
     {
       title: "Travel Journal",
-      description: "Frontend",
+      description: "Frontend Development",
       imgUrl: proj6,
       code: 'https://github.com/Hafizalimi7/Travel-Journey'
     },
