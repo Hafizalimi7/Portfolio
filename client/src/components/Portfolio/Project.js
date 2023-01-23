@@ -11,6 +11,7 @@ import proj6 from "../../assets/img/projectImg/travelJourney.png";
 import proj7 from "../../assets/img/projectImg/movieReview.png";
 import proj8 from "../../assets/img/projectImg/getQuotes.png";
 import proj9 from "../../assets/img/projectImg/covidSite.png";
+import proj10 from "../../assets/img/projectImg/onlineshop.png";
 import colorSharp2 from "../../assets/img/detail/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -19,6 +20,12 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Online Shop",
+      description: "Full Stack",
+      imgUrl: proj10,
+      code: 'https://github.com/Hafizalimi7/Online-Shop'
+    },
     {
       title: "Beach Finder",
       description: "Full Stack",
