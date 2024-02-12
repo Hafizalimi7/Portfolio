@@ -21,10 +21,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Online Shop",
+      title: "Cosby",
       description: "Full Stack",
       imgUrl: proj10,
-      code: 'https://github.com/Hafizalimi7/Online-Shop'
+      code: 'https://github.com/Hafizalimi7/Cosby'
     },
     {
       title: "Beach Finder",
